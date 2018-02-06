@@ -1,11 +1,11 @@
-html{
+html {
   box-sizing: border-box;
   height: 100%;
 }
 
 *,
 *::before,
-*::after{
+*::after {
   box-sizing: inherit;
 }
 
@@ -15,19 +15,19 @@ body{
   height: 100%;
 }
 
-.container{
+.container {
   margin: auto;
   padding: 1em;
   width: 80%;
 }
-.destination-container{
+.destination-container {
   display: flex;
   flex-flow: wrap;
   justify-content: center;
 }
 .destination{
   background: #03a9f4;
-  box-shadow: 0 1px 9px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.4);
   color: white;
   margin: 0.5em;
   min-height: 200px;
@@ -38,15 +38,15 @@ body{
   text-align: center;
 }
 
-h2{
+h2 {
   margin: 0;
   transform: rotate(-45deg);
   text-shadow: 0 0 5px #01579b;
 }
 
-#florida{
+#florida {
   background-color: #03a9f4;
 }
-#paris{
+#paris {
   background-color: #d32f2f;
 }
